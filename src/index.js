@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from "react"; //view library
+import ReactDOM from "react-dom/client"; //connects react to the browser DOM
 import "./index.css";
-import App from "./App";
+import Hello from "./Hello";
+import "tachyons"; //css library
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h1>Hello World</h1>
-    <App />
+    <Hello greeting={"Hello React Ninja"} />
   </React.StrictMode>
 );
 
