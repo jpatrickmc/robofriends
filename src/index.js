@@ -1,14 +1,15 @@
 import React from "react"; //view library
 import ReactDOM from "react-dom/client"; //connects react to the browser DOM
 import "./index.css";
-import Hello from "./Hello";
 import "tachyons"; //css library
 import reportWebVitals from "./reportWebVitals";
+import CardList from "./CardList";
+import { robots } from "./robots";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Hello greeting={"Hello React Ninja"} />
+    <CardList robots={robots} />
   </React.StrictMode>
 );
 
