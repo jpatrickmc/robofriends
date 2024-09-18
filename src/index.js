@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client"; //connects react to the browser DOM
 import "./index.css";
 import "tachyons"; //css library
 import reportWebVitals from "./reportWebVitals";
-import App from "./App";
+import App from "./containers/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
